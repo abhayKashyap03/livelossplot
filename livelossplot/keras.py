@@ -1,6 +1,6 @@
 from __future__ import absolute_import
 
-import keras
+import tensorflow.keras
 from .generic_keras import _PlotLossesCallback
 
 class PlotLossesCallback(_PlotLossesCallback, keras.callbacks.Callback):
